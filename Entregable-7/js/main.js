@@ -1,5 +1,3 @@
-// transicion de el formulario de seleccion sobre aregistro o login
-{
 const $btnSignIn = document.querySelector('.sign-in-btn'),
     $btnSignUp = document.querySelector('.sign-up-btn'),
     $signUp = document.querySelector('.sign-up'),
@@ -11,9 +9,6 @@ document.addEventListener('click', e => {
         $signUp.classList.toggle('active');
     }
 });
-}
-//------------------------------------------------------------------------
-
 class Users {
     constructor(usermail,userpassword,permission) {
         this.usermail = usermail;
