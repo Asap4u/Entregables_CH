@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container-form sign-up">
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido a Project-Library</h2>
+                <p>Si ya tienes una cuenta inicia sesion aqui</p>
+                <button class="sign-up-btn">Iniciar Sesion</button>
+            </div>
+        </div>
+        <form class="formulario" id="form-registro">
+            <h2 class="create-account">Crear una cuenta</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <i class='bx bxl-github'></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-linkedin-square' ></i>
+                </div>
+            </div>
+            <p class="cuenta-gratis">Crear una cuenta gratis</p>
+            <input type="email" id="email-registro" placeholder="Email">
+            <input type="password" id="password-registro" placeholder="Contrasenia">
+            <button type="submit" class="sign-up-btn">Registrarse</button>
+        </form>
+    </div>
+
+    <div class="container-form sign-in">
+
+        <form class="formulario" id="form-login">
+            <h2 class="create-account">Iniciar Sesion</h2>
+            <div class="iconos">
+                <div class="border-icon">
+                    <i class='bx bxl-github'></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </div>
+                <div class="border-icon">
+                    <i class='bx bxl-linkedin-square' ></i>
+                </div>
+            </div>
+            <p class="cuenta-gratis">Aun no tienes cuenta? </p>
+            <input type="email" placeholder="Email" id="email-login">
+            <input type="password" placeholder="Contrasenia" id="password-login">
+            <button type="submit" class="sign-up-btn">Iniciar Sesion</button>
+        </form>
+
+        <div class="welcome-back">
+            <div class="message">
+                <h2>Bienvenido de nuevo</h2>
+                <p>Si aun no tienes una cuenta registrate aqui</p>
+                <button class="sign-in-btn">Registrarse</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
